@@ -1,0 +1,25 @@
+{
+  "name": "react-api-platform",
+  "version": "0.1.0",
+  "description": "React helpers to work with api-platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabious/react-api-platform.git"
+  },
+  "keywords": [
+    "react",
+    "api-platform",
+    "mercure",
+    "query"
+  ],
+  "author": "Fabious",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fabious/react-api-platform/issues"
+  },
+  "homepage": "https://github.com/Fabious/react-api-platform#readme"
+}
