@@ -4,6 +4,7 @@
   "description": "React helpers to work with api-platform",
   "main": "index.js",
   "scripts": {
+    "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/Fabious/react-api-platform#readme",
   "devDependencies": {
-    "prettier": "2.7.1"
+    "prettier": "2.7.1",
+    "rollup": "^2.79.0"
   }
 }
