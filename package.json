@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
+    "eslint": "eslint '*.{js,json}' '{src,tests}/**/*.{ts,tsx}'",
     "typecheck": "tsc -b",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,6 +27,13 @@
   "homepage": "https://github.com/Fabious/react-api-platform#readme",
   "devDependencies": {
     "@types/react": "^18.0.20",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "2.7.1",
     "react": "^18.2.0",
     "rollup": "^2.79.0",
