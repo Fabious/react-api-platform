@@ -4,7 +4,6 @@
     "jsx": "react-jsx",
     "module": "commonjs",
     "moduleResolution": "node",
-    "noEmit": true,
     "strict": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -16,6 +15,8 @@
     "noUncheckedIndexedAccess": true,
     "skipLibCheck": true,
     "baseUrl": "./",
-    "paths": {}
+    "paths": {
+      "react-api-platform": ["./src/index.ts"]
+    }
   }
 }

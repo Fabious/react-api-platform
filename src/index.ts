@@ -1,1 +1,1 @@
-export { default } from './use-mercure'
+export * from './use-mercure'
