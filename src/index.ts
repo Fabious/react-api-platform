@@ -1,1 +1,1 @@
-console.log('Hello, world!')
+export { default } from './use-mercure'

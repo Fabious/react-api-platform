@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/Fabious/react-api-platform#readme",
   "devDependencies": {
+    "@types/react": "^18.0.20",
     "prettier": "2.7.1",
+    "react": "^18.2.0",
     "rollup": "^2.79.0",
     "typescript": "^4.8.3"
   }
